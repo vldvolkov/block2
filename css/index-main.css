@@ -3,6 +3,8 @@ h2{
     color: var(--main-gold-color);
     text-align: center;
     font-size: 34px;
+    padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 .title{
@@ -10,59 +12,66 @@ h2{
     font-size: 19px;
     color: var(--main-text-color);
     text-align: center;
-    box-sizing: border-box;
-    height: 85px;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 28,5px;
-    text-decoration-thickness: auto;
-    vertical-align: baseline;
-    font-stretch: 100%;
-    -webkit-box-direction: normal;
-    overflow-wrap: break-word;
-    border-image-repeat: stretch;
-    text-transform: none;
+    padding-top: 15px;
+    width: 760px;
+}
+
+.mid_title{
+    display: flex;
+    justify-content: center;
 }
 
 h3{
     font-family: 'BenchNine' sans-serif;
     font-size: 18px;
     color: var(--main-gold-color);
-    text-align: center;
+    padding-top: 20px;
+    padding-right: 50px;
+    text-align: left;
 }
 
 .title_mid{
     font-family: 'Robotto', sans-serif;
     font-size: 17px;
     color: var(--white-text-color);
-    text-align: center;
+    width: 800px;
+    padding-top: 10px;
+    padding-right: 100px;
+    text-align: left;
 }
 
 section{
     background-color: black;
 }
 
+.block_1{
+    display: flex;
+    justify-content: center;
+}
+
 .img{
     height: 32px;
     width: 385px;
-    position: absolute;
-    box-sizing: border-box;
-    font-stretch: 100%;
-    font-weight: 400;
-    object-position: 50% 50%;
-    text-align: center;
-    object-fit: contain;
-    overflow-wrap: break-word;
-    display: block;
-    top: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    left: 0;
-    
 }
+
+
+.img_cigars{
+    height: 239px;
+    width: 346px;
+}
+
+.img_2{
+    padding: 50px 50px 50px 50px;
+}
+.content{
+   box-sizing: border-box;
+   padding-left: 50px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+
+
