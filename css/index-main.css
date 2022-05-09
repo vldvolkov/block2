@@ -61,14 +61,17 @@ section{
 }
 
 .img_2{
-    padding: 50px 50px 50px 50px;
+    padding: 50px 10px 100px 80px;
 }
 .content{
    box-sizing: border-box;
-   padding-left: 50px;
-   padding-bottom: 100px;
+   padding: 80px 10px 20px 50px;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+}
 
 
 
